@@ -1,0 +1,233 @@
+---
+title: "Leadership"
+page-layout: full
+toc: false
+---
+
+## Research Leadership
+
+My leadership is centered on building the systems, incentives, and research capacity that help people and institutions accomplish ambitious individual and collective goals.
+
+Across administrative and scholarly roles, I approach leadership through systems thinking and evidentiary reasoning. Decisions do not operate in isolation. Policies, incentives, resource allocations, and organizational structures create both intended and unintended consequences.
+
+## Research-Enterprise Leadership
+
+As Associate Dean for Research, I work to strengthen the research enterprise through infrastructure, incentives, mentoring, and systems that support externally funded scholarship.
+
+::: {.leadership-grid}
+
+::: {.leadership-card}
+
+<span class="leadership-label">Infrastructure</span>
+
+### Building Research Capacity
+
+Development of structures and staffing that help faculty identify opportunities, develop proposals, manage awards, and sustain externally supported research.
+
+This work has included the development of a dedicated research-support office and expanded research-administration capacity.
+
+:::
+
+::: {.leadership-card}
+
+<span class="leadership-label">Incentives</span>
+
+### Aligning Effort and Research Support
+
+Creation of policies that connect externally funded effort to resources that faculty can reinvest in their research.
+
+These systems support activities such as:
+
+- graduate research assistance;
+- research travel;
+- pilot studies;
+- scholarly dissemination;
+- faculty research accounts;
+- new research development.
+
+:::
+
+::: {.leadership-card}
+
+<span class="leadership-label">Workload</span>
+
+### Connecting Grants and Faculty Work
+
+Development of processes that more directly connect grant-supported effort with teaching workload and course-buyout decisions.
+
+The goal is to make faculty workload, grant budgeting, effort allocation, and institutional support more coherent and transparent.
+
+:::
+
+::: {.leadership-card}
+
+<span class="leadership-label">Mentoring</span>
+
+### Developing Faculty Research Programs
+
+Mentoring junior and mid-career faculty as they clarify research priorities, articulate coherent programs of scholarship, identify funding pathways, and communicate the significance of their work.
+
+:::
+
+:::
+
+## Leadership Philosophy
+
+::: {.leadership-philosophy}
+
+### Systems Thinking and Evidentiary Reasoning
+
+Policies, incentives, and organizational decisions should be evaluated as parts of systems rather than as isolated actions.
+
+Effective research leadership requires attention to:
+
+- evidence;
+- incentives;
+- resource constraints;
+- intended outcomes;
+- unintended consequences;
+- institutional culture;
+- long-term sustainability.
+
+The central question is not simply whether a decision solves an immediate problem. It is whether the decision strengthens the broader system in which people conduct research, allocate effort, and pursue individual and collective goals.
+
+:::
+
+## Developing Strong Research Programs
+
+I work with scholars to strengthen five features of a successful research program.
+
+::: {.research-program-framework}
+
+::: {.framework-item}
+
+<span class="framework-number">01</span>
+
+### Coherence
+
+How do individual studies, collaborations, and funding activities connect to form a recognizable scholarly program?
+
+:::
+
+::: {.framework-item}
+
+<span class="framework-number">02</span>
+
+### Impact
+
+Why does the work matter, and what intellectual, practical, methodological, or social contribution can it make?
+
+:::
+
+::: {.framework-item}
+
+<span class="framework-number">03</span>
+
+### Rigor
+
+Are the research design, measurement, methods, evidence, and interpretations sufficiently strong?
+
+:::
+
+::: {.framework-item}
+
+<span class="framework-number">04</span>
+
+### Intellectual Leadership
+
+What questions, ideas, frameworks, or directions does the scholar lead rather than merely participate in?
+
+:::
+
+::: {.framework-item}
+
+<span class="framework-number">05</span>
+
+### Progress
+
+Is the research program developing cumulatively through visible outputs, stronger questions, broader influence, and increasing independence?
+
+:::
+
+:::
+
+## Scholarly and Collaborative Leadership
+
+I frequently contribute to interdisciplinary work as a methodologist, statistician, evaluator, collaborator, reviewer, and advisor.
+
+My role is to provide methodological expertise that allows substantive experts to focus on the constructs, theories, and questions they know best.
+
+Effective interdisciplinary research depends on:
+
+- clear division of expertise;
+- respect for substantive and methodological roles;
+- early methodological involvement;
+- shared responsibility for evidentiary quality;
+- communication across disciplinary boundaries.
+
+## Selected Leadership Impact
+
+::: {.impact-panel}
+
+### Growth in Research Capacity
+
+During my tenure in research leadership, the Moody School of Education has experienced substantial growth in:
+
+- research expenditures;
+- externally funded faculty participation;
+- proposal activity;
+- research infrastructure;
+- faculty research support;
+- reinvestment of salary savings into research activity.
+
+Research expenditures increased by approximately **1,800%** during this period.
+
+This figure reflects organizational growth that occurred during my leadership and should not be interpreted as the work of any one individual. Research expansion depends on faculty expertise, administrative support, institutional investment, collaboration, and sustained collective effort.
+
+:::
+
+## Academic Leadership Experience
+
+Previous service as a program director and department chair provided a deeper understanding of:
+
+- faculty work;
+- graduate education;
+- university systems;
+- institutional incentives;
+- resource allocation;
+- academic careers;
+- the often-unwritten structures that shape higher education.
+
+That experience continues to inform my work with faculty, graduate students, administrators, and research teams.
+
+## Professional and National Service
+
+My professional service includes long-term participation in federal proposal review, editorial review, professional organizations, and scholarly advisory work.
+
+Selected areas include:
+
+- more than a decade of National Science Foundation proposal-review panel service;
+- federal education-research review service through the U.S. Department of Education;
+- editorial-board service;
+- ad hoc review for scholarly journals;
+- scientific and methodological advisory roles;
+- invited professional and research-development activities.
+
+Specific programs and panels are not identified where service is confidential.
+
+## Leadership and Engagement
+
+I welcome opportunities involving:
+
+- research-enterprise consultation;
+- faculty research development;
+- grant and funding strategy;
+- academic-career development;
+- research-program articulation;
+- systems thinking in academic leadership;
+- workshops for graduate students and junior faculty;
+- advisory and review service.
+
+[Discuss an Engagement](engagement.qmd){.btn .btn-primary}
+
+[Contact Me](contact.qmd){.btn .btn-outline-dark}

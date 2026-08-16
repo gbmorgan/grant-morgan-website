@@ -1,0 +1,140 @@
+---
+title: "Resources"
+page-layout: full
+toc: false
+---
+
+## Selected Resources
+
+This collection will include a small number of carefully developed resources related to quantitative methodology, research development, and academic professional growth.
+
+The goal is not to create a comprehensive course archive. Instead, each resource should offer clear, useful, and intellectually substantial guidance connected to my scholarship, teaching, or leadership.
+
+## Quantitative Methodology
+
+::: {.resource-grid}
+
+::: {.resource-card}
+
+<span class="resource-type">Forthcoming Guide</span>
+
+### Measurement, Evidence, and Inference
+
+A conceptual introduction to the role of quantitative methods in constructing evidence, evaluating uncertainty, and supporting defensible conclusions.
+
+<span class="resource-status">In development</span>
+
+:::
+
+::: {.resource-card}
+
+<span class="resource-type">Forthcoming Guide</span>
+
+### Thinking Carefully About Model Fit
+
+A practical guide to interpreting fit indices, understanding their limitations, and avoiding mechanical reliance on universal cutoff values.
+
+<span class="resource-status">In development</span>
+
+:::
+
+::: {.resource-card}
+
+<span class="resource-type">Forthcoming R Demonstration</span>
+
+### Structural Equation Modeling
+
+A focused, annotated demonstration illustrating model specification, estimation, evaluation, and interpretation.
+
+<span class="resource-status">In development</span>
+
+:::
+
+::: {.resource-card}
+
+<span class="resource-type">Forthcoming R Demonstration</span>
+
+### Item Response Theory
+
+An applied demonstration of item characteristics, information, model interpretation, and measurement precision.
+
+<span class="resource-status">In development</span>
+
+:::
+
+:::
+
+## Research and Academic Development
+
+::: {.resource-grid}
+
+::: {.resource-card}
+
+<span class="resource-type">Forthcoming Framework</span>
+
+### Developing a Coherent Research Agenda
+
+A structured framework for evaluating a research program through coherence, impact, rigor, intellectual leadership, and progress.
+
+<span class="resource-status">In development</span>
+
+:::
+
+::: {.resource-card}
+
+<span class="resource-type">Forthcoming Guide</span>
+
+### Decoding the Hidden Curriculum of Higher Education
+
+Guidance for graduate students and junior faculty on understanding expectations, opportunities, professional norms, and institutional systems.
+
+<span class="resource-status">In development</span>
+
+:::
+
+::: {.resource-card}
+
+<span class="resource-type">Forthcoming Guide</span>
+
+### Academic Interviewing
+
+Practical guidance on presenting one’s scholarly identity, communicating fit, answering difficult questions, and navigating academic interviews.
+
+<span class="resource-status">In development</span>
+
+:::
+
+::: {.resource-card}
+
+<span class="resource-type">Forthcoming Guide</span>
+
+### Communicating a Program of Research
+
+A framework for explaining how individual projects connect to form a coherent, consequential, and cumulative scholarly agenda.
+
+<span class="resource-status">In development</span>
+
+:::
+
+:::
+
+## Resource Philosophy
+
+I share materials selectively and intentionally. Public resources should be:
+
+- accurate;
+- conceptually clear;
+- useful beyond a single course;
+- appropriately documented;
+- connected to a broader methodological or professional purpose;
+- maintainable over time.
+
+Additional materials will be added as they are prepared for public use.
+
+## Looking for Something Specific?
+
+I consider requests for workshops, methodological guidance, research-development programming, and selected instructional materials.
+
+[Discuss an Engagement](engagement.qmd){.btn .btn-primary}
+
+[Contact Me](contact.qmd){.btn .btn-outline-dark}

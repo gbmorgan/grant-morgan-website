@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Grant B. Morgan"
+  search: true
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: engagement.qmd
+        text: Connect
+      - text: More
+        menu:
+          - href: teaching.qmd
+            text: Teaching & Mentoring
+          - href: leadership.qmd
+            text: Leadership
+          - href: resources.qmd
+            text: Resources
+          - href: about.qmd
+            text: About
+    right:
+      - href: assets/documents/grant-morgan-cv.pdf
+        text: CV
+        target: _blank
+      - href: contact.qmd
+        text: Contact
+
+  page-footer:
+    left: |
+      © 2026 Grant B. Morgan
+    center: |
+      [Google Scholar](https://scholar.google.com/citations?user=4su2ni8AAAAJ&hl=en) ·
+      [ORCID](https://orcid.org/0000-0002-3077-4643) ·
+      [ResearchGate](https://www.researchgate.net/profile/Grant-Morgan-4) ·
+      [Baylor Profile](https://edp.soe.baylor.edu/grant-morgan)
+    right: |
+      Professor of Quantitative Methods · Associate Dean for Research
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

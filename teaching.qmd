@@ -1,0 +1,214 @@
+---
+title: "Teaching & Mentoring"
+page-layout: full
+toc: false
+---
+
+## Developing Independent Scholars
+
+My mentoring combines advanced methodological preparation with sustained development as a researcher and thinker.
+
+Technical knowledge matters, but doctoral education should also help students reason more deeply about research design, measurement, evidence, analysis, and inference. These capabilities are valuable across academic, research, consulting, and leadership careers.
+
+> My goal as a mentor is to help students become independent scholars whose work is characterized by deep thinking, methodological rigor, intellectual coherence, and consistently high quality.
+
+## A Progressive Apprenticeship Model
+
+Students move gradually from observing scholarly work to leading independent research, teaching, and collaboration.
+
+::: {.apprenticeship-path}
+
+::: {.apprenticeship-stage}
+
+<span class="stage-number">01</span>
+
+### Observe
+
+Students begin by seeing how research questions are developed, methodological decisions are made, and scholarly projects are managed.
+
+:::
+
+::: {.apprenticeship-stage}
+
+<span class="stage-number">02</span>
+
+### Contribute
+
+Students take responsibility for defined components of research, analysis, writing, teaching, or dissemination.
+
+:::
+
+::: {.apprenticeship-stage}
+
+<span class="stage-number">03</span>
+
+### Assume Responsibility
+
+As expertise develops, students take greater ownership of methodological decisions, project coordination, and scholarly communication.
+
+:::
+
+::: {.apprenticeship-stage}
+
+<span class="stage-number">04</span>
+
+### Lead
+
+Students develop and lead research, collaborate with scholars beyond the immediate research group, and support the development of others.
+
+:::
+
+::: {.apprenticeship-stage}
+
+<span class="stage-number">05</span>
+
+### Work Independently
+
+The goal is full intellectual and professional independence as a scholar, methodologist, teacher, and collaborator.
+
+:::
+
+:::
+
+## Student Research and Professional Development
+
+Students are welcome to participate in the projects I undertake and may choose their preferred level of involvement. Declining one opportunity has no bearing on access to future opportunities.
+
+I strongly encourage student-led research. Doctoral students routinely develop experience in:
+
+::: {.mentoring-outcomes-grid}
+
+::: {.mentoring-outcome}
+
+### Scholarly Publication
+
+Developing manuscripts for peer-reviewed journals and contributing meaningfully to collaborative scholarship.
+
+:::
+
+::: {.mentoring-outcome}
+
+### Conference Dissemination
+
+Presenting methodological and applied research at national and international professional meetings.
+
+:::
+
+::: {.mentoring-outcome}
+
+### Methodological Collaboration
+
+Working with faculty and research teams as developing quantitative consultants, analysts, and collaborators.
+
+:::
+
+::: {.mentoring-outcome}
+
+### Academic Preparation
+
+Building coherent research agendas, teaching expertise, professional networks, and preparation for faculty careers.
+
+:::
+
+:::
+
+## Student Outcomes
+
+Students I have mentored have pursued successful careers in both academic and applied settings.
+
+Those pursuing faculty careers have accepted positions at research-intensive universities. Students entering private or applied organizations have advanced into senior and director-level roles.
+
+Additional information about student publications, awards, placements, and dissertation topics will be added as the site develops.
+
+## Teaching
+
+My teaching focuses on the logic, application, and interpretation of advanced quantitative methods.
+
+::: {.featured-course-grid}
+
+::: {.featured-course-card}
+
+<span class="course-label">Featured Course</span>
+
+### Structural Equation Modeling
+
+A doctoral-level examination of latent variable modeling, measurement models, structural relations, model evaluation, estimation, and the interpretation of evidence.
+
+Topics include:
+
+- confirmatory factor analysis;
+- structural regression models;
+- mediation and indirect effects;
+- longitudinal models;
+- measurement invariance;
+- model fit and comparison;
+- consequences of misspecification.
+
+:::
+
+::: {.featured-course-card}
+
+<span class="course-label">Featured Course</span>
+
+### Item Response Theory
+
+A doctoral-level examination of models for item responses, test and scale development, measurement precision, model evaluation, and score interpretation.
+
+Topics include:
+
+- dichotomous and polytomous models;
+- item and test information;
+- model assumptions;
+- item and model fit;
+- differential item functioning;
+- test construction and interpretation.
+
+:::
+
+:::
+
+### Additional Teaching Areas
+
+- Psychometric Theory
+- Philosophy of Science
+- Causal Inference
+- Experimental Design
+- Multilevel Modeling
+- Missing Data Analysis
+- Advanced Quantitative Research Design
+
+## Working With Me
+
+::: {.working-with-me}
+
+### Prospective Doctoral Students
+
+I work most closely with students who view quantitative methodology as a substantive field of inquiry rather than simply a collection of analytical tools.
+
+Strong alignment typically involves genuine interest in:
+
+- measurement and psychometrics;
+- latent variable modeling;
+- quantitative methodology as a discipline;
+- research design;
+- validity and evidentiary reasoning;
+- simulation-based methodological research.
+
+Students do not need to enter the program as finished quantitative methodologists, but foundational quantitative preparation and a serious commitment to advanced learning are important.
+
+Because of my administrative responsibilities and commitment to intensive mentoring, I work with a relatively small number of doctoral students. Advising availability changes from year to year.
+
+Prospective students are encouraged to contact me before applying and briefly describe:
+
+- their academic background;
+- methodological interests;
+- quantitative preparation;
+- reasons for considering Baylor;
+- potential alignment with my work;
+- long-term professional goals.
+
+[Learn About the Baylor Ph.D. Program](https://edp.moody.baylor.edu/areas-study/quantitative-methods){.btn .btn-primary target="_blank"}
+
+[Contact Me](contact.qmd){.btn .btn-outline-dark}
+
+:::

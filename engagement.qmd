@@ -1,0 +1,215 @@
+---
+title: "Engagement"
+page-layout: full
+toc: false
+---
+
+## Collaboration, Advising, and Professional Engagement
+
+I welcome opportunities to contribute methodological expertise, evidentiary reasoning, and academic leadership experience to ambitious research, professional development, and advisory work.
+
+I am especially interested in engagements involving serious commitment to learning, strong scholarship, and the potential for meaningful professional or scholarly impact.
+
+## Research Collaboration
+
+> The strongest methodological collaboration begins early, when measurement, design, and analysis can be developed together.
+
+I contribute most effectively when methodological decisions are integrated with the substantive goals of a project from the beginning.
+
+::: {.engagement-grid}
+
+::: {.engagement-card}
+
+<span class="engagement-label">Research</span>
+
+### Grant and Research Collaboration
+
+Participation as a co-investigator, methodological lead, evaluator, statistical consultant, or research collaborator.
+
+Typical contributions include:
+
+- research design;
+- measurement planning;
+- analytic strategy;
+- grant-methods development;
+- interpretation of evidence;
+- methodological writing.
+
+:::
+
+::: {.engagement-card}
+
+<span class="engagement-label">Methods</span>
+
+### Measurement and Analysis
+
+Methodological guidance involving:
+
+- latent variable modeling;
+- psychometrics;
+- classification;
+- categorical-data analysis;
+- multilevel modeling;
+- generalized linear models;
+- model evaluation;
+- simulation studies.
+
+:::
+
+::: {.engagement-card}
+
+<span class="engagement-label">Evaluation</span>
+
+### Evaluation and Evidentiary Review
+
+Support for projects requiring:
+
+- evaluation design;
+- measurement review;
+- analytic review;
+- validity arguments;
+- interpretation of findings;
+- assessment of evidentiary strength;
+- external methodological review.
+
+:::
+
+::: {.engagement-card}
+
+<span class="engagement-label">Advisory</span>
+
+### Panels, Boards, and Review
+
+Service may include:
+
+- advisory boards;
+- scientific committees;
+- proposal-review panels;
+- external review;
+- methodological advisory roles;
+- research-development consultation.
+
+:::
+
+:::
+
+## Speaking and Workshops
+
+I am available for keynote talks, invited presentations, workshops, panel discussions, executive briefings, and professional-development sessions.
+
+::: {.topic-columns}
+
+::: {.topic-panel}
+
+### Quantitative Methodology
+
+Topics may include:
+
+- quantitative thinking and statistical inference;
+- parametric and nonparametric methods;
+- structural equation modeling;
+- latent variable models;
+- factor analysis;
+- psychometrics and measurement;
+- classification;
+- categorical-data analysis;
+- multilevel modeling;
+- generalized linear models;
+- validity and evidentiary reasoning;
+- artificial intelligence in research.
+
+:::
+
+::: {.topic-panel}
+
+### Academic Development and Leadership
+
+Topics may include:
+
+- developing a coherent research agenda;
+- communicating scholarly impact;
+- academic interviewing;
+- obtaining and succeeding in faculty positions;
+- promotion and tenure;
+- the hidden curriculum of higher education;
+- research leadership;
+- faculty research development;
+- systems thinking in academic administration.
+
+:::
+
+:::
+
+## Engagement Formats
+
+::: {.format-strip}
+
+::: {.format-item}
+
+### Keynotes and Invited Talks
+
+Conceptual, methodological, or professionally focused presentations for academic and professional audiences.
+
+:::
+
+::: {.format-item}
+
+### Practical Workshops
+
+Interactive sessions designed to develop knowledge, reasoning, and applied methodological skill.
+
+:::
+
+::: {.format-item}
+
+### Research Advising
+
+Focused consultation on measurement, design, analysis, interpretation, or evidence.
+
+:::
+
+::: {.format-item}
+
+### Professional Development
+
+Programming for graduate students, junior faculty, research leaders, and academic administrators.
+
+:::
+
+:::
+
+## Fit and Boundaries
+
+I am most interested in opportunities where my methodological expertise or academic-leadership experience can contribute meaningfully to stronger research, better decisions, and deeper learning.
+
+I generally decline collaborations that:
+
+- fall substantially outside my methodological preparation;
+- require me to make substantive or theoretical decisions that properly belong to domain experts;
+- involve methodological participation only after major design or measurement decisions are fixed;
+- do not allow sufficient time for careful and responsible work.
+
+Effective interdisciplinary collaboration depends on clear roles, mutual respect, and serious integration of complementary expertise.
+
+## Discuss an Engagement
+
+::: {.engagement-cta}
+
+### Describe the Opportunity
+
+I consider invitations involving research collaboration, grant development, methodological advising, evaluation, speaking, workshops, panels, review, and advisory service.
+
+Please include a brief description of:
+
+- the project or opportunity;
+- the anticipated role;
+- the current stage of development;
+- the intended audience;
+- timing;
+- whether the engagement is virtual, in-person, or flexible.
+
+[Contact Me](contact.qmd){.btn .btn-primary}
+
+[View My CV](assets/documents/grant-morgan-cv.pdf){.btn .btn-outline-dark target="_blank"}
+
+:::

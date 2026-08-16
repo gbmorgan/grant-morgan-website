@@ -1,0 +1,459 @@
+---
+title: "Publications"
+page-layout: full
+toc: false
+---
+
+## Selected Scholarship
+
+My publications span latent variable modeling, psychometrics, classification, validity, evidentiary reasoning, and applied quantitative research.
+
+This page provides several ways to explore the work:
+
+- signature publications;
+- recent publications;
+- influential publications;
+- publications grouped by research area;
+- a complete searchable and filterable record.
+
+## Signature Publications
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+signature_publications <- read.csv(
+  "assets/data/publications.csv",
+  stringsAsFactors = FALSE,
+  check.names = FALSE
+)
+
+signature_publications <- signature_publications[
+  tolower(signature_publications$featured) == "yes",
+]
+
+signature_publications <- signature_publications[
+  order(signature_publications$year, decreasing = TRUE),
+]
+
+escape_signature_html <- function(x) {
+  x <- ifelse(is.na(x), "", x)
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x <- gsub('"', "&quot;", x, fixed = TRUE)
+  x
+}
+
+signature_cards <- vapply(
+  seq_len(nrow(signature_publications)),
+  function(i) {
+
+    pub <- signature_publications[i, ]
+
+    doi_button <- ""
+
+    if (
+      !is.na(pub$doi_url) &&
+      trimws(pub$doi_url) != ""
+    ) {
+      doi_button <- sprintf(
+        paste0(
+          '<a class="signature-publication-link" ',
+          'href="%s" target="_blank" ',
+          'rel="noopener noreferrer">View publication</a>'
+        ),
+        escape_signature_html(pub$doi_url)
+      )
+    }
+
+    sprintf(
+      paste0(
+        '<article class="signature-publication-card">',
+        '<div class="signature-publication-topline">',
+        '<span class="signature-publication-year">%s</span>',
+        '<span class="signature-publication-area">%s</span>',
+        '</div>',
+        '<h3>%s</h3>',
+        '<p class="signature-publication-authors">%s</p>',
+        '<p class="signature-publication-source"><em>%s</em></p>',
+        '<p class="signature-publication-summary">%s</p>',
+        '%s',
+        '</article>'
+      ),
+      escape_signature_html(pub$year),
+      escape_signature_html(pub$research_area),
+      escape_signature_html(pub$title),
+      escape_signature_html(pub$authors),
+      escape_signature_html(pub$journal_or_publisher),
+      escape_signature_html(pub$contribution_summary),
+      doi_button
+    )
+  },
+  character(1)
+)
+
+cat(
+  '<div class="signature-publication-grid">',
+  paste(signature_cards, collapse = "\n"),
+  '</div>'
+)
+```
+
+## Recent Work
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+recent_publications <- read.csv(
+  "assets/data/publications.csv",
+  stringsAsFactors = FALSE,
+  check.names = FALSE
+)
+
+recent_publications <- recent_publications[
+  order(recent_publications$year, decreasing = TRUE),
+]
+
+recent_publications <- head(recent_publications, 4)
+
+escape_recent_html <- function(x) {
+  x <- ifelse(is.na(x), "", x)
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x <- gsub('"', "&quot;", x, fixed = TRUE)
+  x
+}
+
+recent_items <- vapply(
+  seq_len(nrow(recent_publications)),
+  function(i) {
+
+    pub <- recent_publications[i, ]
+
+    title_html <- escape_recent_html(pub$title)
+
+    if (
+      !is.na(pub$doi_url) &&
+      trimws(pub$doi_url) != ""
+    ) {
+      title_html <- sprintf(
+        paste0(
+          '<a href="%s" target="_blank" ',
+          'rel="noopener noreferrer">%s</a>'
+        ),
+        escape_recent_html(pub$doi_url),
+        title_html
+      )
+    }
+
+    sprintf(
+      paste0(
+        '<article class="recent-publication-item">',
+        '<div class="recent-publication-year">%s</div>',
+        '<div>',
+        '<h3>%s</h3>',
+        '<p>%s</p>',
+        '<p class="recent-publication-source"><em>%s</em></p>',
+        '</div>',
+        '</article>'
+      ),
+      escape_recent_html(pub$year),
+      title_html,
+      escape_recent_html(pub$authors),
+      escape_recent_html(pub$journal_or_publisher)
+    )
+  },
+  character(1)
+)
+
+cat(
+  '<div class="recent-publication-list">',
+  paste(recent_items, collapse = "\n"),
+  '</div>'
+)
+```
+
+## Complete Publication Record
+
+The full publication record is generated from a spreadsheet and will eventually support:
+
+- keyword search;
+- filtering by research area;
+- filtering by year and publication type;
+- identification of student collaborations;
+- links to DOI records;
+- links to open-access manuscripts;
+- links to related projects, presentations, code, or materials.
+
+::: {.publication-controls}
+
+<input
+  type="search"
+  id="publication-search"
+  class="publication-search"
+  placeholder="Search titles, authors, journals, methods, or topics…"
+  aria-label="Search publications"
+/>
+
+<select id="publication-area-filter" class="publication-filter" aria-label="Filter by research area">
+  <option value="all">All research areas</option>
+</select>
+
+<select id="publication-year-filter" class="publication-filter" aria-label="Filter by year">
+  <option value="all">All years</option>
+</select>
+
+<button type="button" id="publication-reset" class="publication-reset">
+  Clear filters
+</button>
+
+:::
+
+<p id="publication-results-count" class="publication-results-count"></p>
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+publications <- read.csv(
+  "assets/data/publications.csv",
+  stringsAsFactors = FALSE,
+  check.names = FALSE
+)
+
+publications <- publications[
+  order(publications$year, decreasing = TRUE),
+]
+
+escape_html <- function(x) {
+  x <- ifelse(is.na(x), "", x)
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x <- gsub('"', "&quot;", x, fixed = TRUE)
+  x
+}
+
+make_link <- function(url, label, css_class = "") {
+  if (is.na(url) || trimws(url) == "") {
+    return("")
+  }
+
+  sprintf(
+    '<a class="publication-link %s" href="%s" target="_blank" rel="noopener noreferrer">%s</a>',
+    css_class,
+    escape_html(url),
+    escape_html(label)
+  )
+}
+
+publication_cards <- vapply(
+  seq_len(nrow(publications)),
+  function(i) {
+
+    pub <- publications[i, ]
+
+    doi_link <- make_link(pub$doi_url, "DOI", "doi-link")
+    oa_link <- make_link(
+      pub$open_access_url,
+      "Open access",
+      "open-access-link"
+    )
+
+    links <- paste(
+      c(doi_link, oa_link)[c(doi_link, oa_link) != ""],
+      collapse = ""
+    )
+
+    student_badge <- if (
+      !is.na(pub$student_collaboration) &&
+      tolower(pub$student_collaboration) == "yes"
+    ) {
+      '<span class="publication-badge student-badge">Student collaboration</span>'
+    } else {
+      ""
+    }
+
+    featured_badge <- if (
+      !is.na(pub$featured) &&
+      tolower(pub$featured) == "yes"
+    ) {
+      '<span class="publication-badge featured-badge">Featured</span>'
+    } else {
+      ""
+    }
+
+    influential_badge <- if (
+      !is.na(pub$influential) &&
+      tolower(pub$influential) == "yes"
+    ) {
+      '<span class="publication-badge influence-badge">Influential</span>'
+    } else {
+      ""
+    }
+
+    searchable_text <- paste(
+      pub$title,
+      pub$authors,
+      pub$journal_or_publisher,
+      pub$research_area,
+      pub$methodology,
+      pub$substantive_application,
+      pub$contribution_summary
+    )
+
+    sprintf(
+      paste0(
+        '<article class="publication-record" ',
+        'data-year="%s" ',
+        'data-area="%s" ',
+        'data-search="%s">',
+        '<div class="publication-year">%s</div>',
+        '<div class="publication-record-content">',
+        '<div class="publication-badges">%s%s%s</div>',
+        '<h3 class="publication-title">%s</h3>',
+        '<p class="publication-authors">%s</p>',
+        '<p class="publication-source"><em>%s</em></p>',
+        '<p class="publication-summary">%s</p>',
+        '<div class="publication-metadata">',
+        '<span>%s</span>',
+        '<span>%s</span>',
+        '</div>',
+        '<div class="publication-links">%s</div>',
+        '</div>',
+        '</article>'
+      ),
+      escape_html(pub$year),
+      escape_html(pub$research_area),
+      escape_html(tolower(searchable_text)),
+      escape_html(pub$year),
+      featured_badge,
+      influential_badge,
+      student_badge,
+      escape_html(pub$title),
+      escape_html(pub$authors),
+      escape_html(pub$journal_or_publisher),
+      escape_html(pub$contribution_summary),
+      escape_html(pub$research_area),
+      escape_html(pub$methodology),
+      links
+    )
+  },
+  character(1)
+)
+
+cat(
+  '<div id="publication-records" class="publication-records">',
+  paste(publication_cards, collapse = "\n"),
+  '</div>'
+)
+```
+
+<div id="publication-no-results" class="publication-no-results" hidden>
+  <h3>No matching publications</h3>
+  <p>Try removing a filter or using a broader search term.</p>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("publication-search");
+  const areaFilter = document.getElementById("publication-area-filter");
+  const yearFilter = document.getElementById("publication-year-filter");
+  const resetButton = document.getElementById("publication-reset");
+  const records = Array.from(
+    document.querySelectorAll(".publication-record")
+  );
+  const countDisplay = document.getElementById(
+    "publication-results-count"
+  );
+  const noResults = document.getElementById(
+    "publication-no-results"
+  );
+
+  const areas = [...new Set(
+    records.map(record => record.dataset.area)
+  )].sort();
+
+  const years = [...new Set(
+    records.map(record => record.dataset.year)
+  )].sort((a, b) => Number(b) - Number(a));
+
+  areas.forEach(area => {
+    const option = document.createElement("option");
+    option.value = area;
+    option.textContent = area;
+    areaFilter.appendChild(option);
+  });
+
+  years.forEach(year => {
+    const option = document.createElement("option");
+    option.value = year;
+    option.textContent = year;
+    yearFilter.appendChild(option);
+  });
+
+  function filterPublications() {
+    const searchTerm = searchInput.value
+      .trim()
+      .toLowerCase();
+
+    const selectedArea = areaFilter.value;
+    const selectedYear = yearFilter.value;
+
+    let visibleCount = 0;
+
+    records.forEach(record => {
+      const matchesSearch =
+        !searchTerm ||
+        record.dataset.search.includes(searchTerm);
+
+      const matchesArea =
+        selectedArea === "all" ||
+        record.dataset.area === selectedArea;
+
+      const matchesYear =
+        selectedYear === "all" ||
+        record.dataset.year === selectedYear;
+
+      const isVisible =
+        matchesSearch && matchesArea && matchesYear;
+
+      record.hidden = !isVisible;
+
+      if (isVisible) {
+        visibleCount += 1;
+      }
+    });
+
+    countDisplay.textContent =
+      visibleCount === 1
+        ? "Showing 1 publication"
+        : `Showing ${visibleCount} publications`;
+
+    noResults.hidden = visibleCount !== 0;
+  }
+
+  searchInput.addEventListener("input", filterPublications);
+  areaFilter.addEventListener("change", filterPublications);
+  yearFilter.addEventListener("change", filterPublications);
+
+  resetButton.addEventListener("click", function () {
+    searchInput.value = "";
+    areaFilter.value = "all";
+    yearFilter.value = "all";
+    filterPublications();
+    searchInput.focus();
+  });
+
+  filterPublications();
+});
+</script>

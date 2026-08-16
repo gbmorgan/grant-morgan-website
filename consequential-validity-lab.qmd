@@ -1,0 +1,74 @@
+---
+title: "Consequential Validity Lab"
+subtitle: "When evidence becomes a decision"
+---
+
+Quantitative methods do more than describe the world. Measurement models, statistical models, classifications, and decision rules are routinely used to determine who qualifies for services, how individuals are evaluated, what interventions are selected, which claims are considered credible, and what opportunities or consequences people experience.
+
+The **Consequential Validity Lab** studies the validity of these decision processes.
+
+Our work focuses on the chain of inference connecting **measurement, evidence, interpretation, and action**. We investigate how properties of measurement and statistical models propagate into classifications and decisions, when seemingly reasonable analytic choices produce substantively different conclusions, and what evidence is necessary to support defensible decisions.
+
+Rather than treating a score, model estimate, or classification as the endpoint of quantitative analysis, we ask what happens next.
+
+::: {.callout-note appearance="simple"}
+### From evidence to action
+
+**Measurement → Evidence → Interpretation → Decision → Consequences**
+
+The lab studies the validity of the inferential and evidentiary links connecting each stage.
+:::
+
+## Research Focus
+
+The lab examines questions such as:
+
+- How does measurement error affect individual classifications and high-stakes decisions?
+- How sensitive are decisions to alternative psychometric or statistical models?
+- When does model misspecification meaningfully alter substantive conclusions?
+- How should uncertainty in latent-variable estimates be incorporated into decision rules?
+- What validity evidence is necessary when scores are used for classification, diagnosis, eligibility, selection, or intervention?
+- How should the intended and unintended consequences of quantitative decision systems inform validity arguments?
+- How can evidentiary reasoning improve the connection between statistical results and defensible action?
+
+## An Evidentiary Perspective
+
+The lab approaches validity as a problem of **evidentiary reasoning**.
+
+Scores and statistical results do not speak for themselves. They become meaningful through a sequence of claims linking observations to constructs, constructs to interpretations, and interpretations to decisions. Each link introduces assumptions and uncertainty.
+
+We study those links directly.
+
+> The lab does not begin from the assumption that consequences either are or are not part of validity. Instead, we study the evidentiary chain through which measurement and statistical results become consequential decisions.
+
+## Current and Emerging Areas of Inquiry
+
+### Measurement and classification
+
+Investigating how measurement precision, reliability, score uncertainty, and decision thresholds influence classification accuracy.
+
+### Model uncertainty and decision robustness
+
+Examining whether conclusions remain stable across plausible measurement models, statistical specifications, and analytic assumptions.
+
+### Latent-variable models and consequential inference
+
+Studying the implications of making individual or group decisions from latent-variable estimates.
+
+### Validity evidence for decision systems
+
+Developing frameworks for evaluating the evidence supporting classifications, eligibility rules, diagnostic procedures, and other quantitative decision systems.
+
+### Simulation as evidentiary analysis
+
+Using simulation to identify conditions under which analytic procedures produce accurate, misleading, or consequentially different conclusions.
+
+## Collaboration
+
+The Consequential Validity Lab brings together faculty, graduate students, and collaborators interested in the intersection of **measurement, statistical reasoning, validity, and decision-making**.
+
+Projects may involve methodological development, simulation studies, empirical applications, theoretical work on validity and evidentiary reasoning, or interdisciplinary collaborations in settings where quantitative evidence informs consequential decisions.
+
+The lab is particularly interested in problems where the central methodological question is not simply *Which analysis should be used?* but rather:
+
+> **What evidence would justify the conclusion or decision we want to make?**

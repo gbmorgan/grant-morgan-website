@@ -1,0 +1,267 @@
+---
+page-layout: full
+toc: false
+---
+
+::: {.hero-section}
+
+::: {.hero-content}
+
+## Grant B. Morgan, Ph.D.
+
+### Quantitative Methodologist · Psychometrician · Research Leader
+
+# Methodology, Evidence, and Inference
+
+I study how quantitative methods and evidentiary reasoning support defensible conclusions about constructs, models, populations, and consequential decisions.
+
+[Explore My Work](research.qmd){.btn .btn-primary}
+
+[Collaborate or Connect](engagement.qmd){.btn .btn-outline-primary}
+
+:::
+
+::: {.hero-profile}
+
+![Grant B. Morgan](assets/images/grant-morgan-headshot.png){.hero-headshot}
+
+::: {.hero-appointments}
+
+**Professor of Quantitative Methods**  
+Department of Educational Psychology
+
+**Associate Dean for Research**  
+Moody School of Education
+
+**Baylor University**
+
+:::
+
+:::
+
+:::
+
+## Research Focus
+
+My scholarship examines the validity of inferences supported by quantitative evidence. This work connects four broad areas:
+
+::: {.research-grid}
+
+::: {.research-card}
+
+### Latent Variable Modeling
+
+Examining the estimation, evaluation, and interpretation of models involving constructs that cannot be observed directly.
+
+:::
+
+::: {.research-card}
+
+### Psychometrics and Measurement
+
+Studying how instruments and scores support conclusions about psychological and educational phenomena.
+
+:::
+
+::: {.research-card}
+
+### Classification and Decision-Making
+
+Investigating model-based classification, group enumeration, uncertainty, and the consequences of quantitative decisions.
+
+:::
+
+::: {.research-card}
+
+### Validity and Evidentiary Reasoning
+
+Evaluating how research design, measurement, analysis, and interpretation work together to support defensible conclusions.
+
+:::
+
+:::
+
+[Explore the Research Program](research.qmd){.section-link}
+
+## Selected Contributions
+
+::: {.contribution-grid}
+
+::: {.contribution-card}
+
+### Categorical Latent-Variable Estimation
+
+Research on the accuracy and performance of estimation methods under conditions commonly encountered in applied research.
+
+:::
+
+::: {.contribution-card}
+
+### Latent Class and Profile Enumeration
+
+Research examining how data characteristics affect decisions concerning the number and nature of latent groups.
+
+:::
+
+::: {.contribution-card}
+
+### Model-Fit Evaluation
+
+Research evaluating the performance of fit indices across a range of latent-variable models and analytic conditions.
+
+:::
+
+::: {.contribution-card}
+
+### Consequential Inference
+
+Emerging work examining how measurement, model choice, and analytic uncertainty affect consequential classifications and decisions.
+
+:::
+
+:::
+
+
+## Impact at a Glance
+
+::: {.impact-metrics}
+
+::: {.impact-metric}
+
+<span class="impact-number">108</span>
+
+<span class="impact-label">Peer-Reviewed Publications</span>
+
+:::
+
+::: {.impact-metric}
+
+<span class="impact-number">5,663</span>
+
+<span class="impact-label">Google Scholar Citations</span>
+
+:::
+
+::: {.impact-metric}
+
+<span class="impact-number">32</span>
+
+<span class="impact-label">h-index</span>
+
+:::
+
+::: {.impact-metric}
+
+<span class="impact-number">52</span>
+
+<span class="impact-label">Student Coauthors</span>
+
+:::
+
+:::
+
+<p class="impact-note">
+Citation and h-index values reflect Google Scholar and will be updated periodically.
+</p>
+
+
+## Recent Work
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+homepage_publications <- read.csv(
+  "assets/data/publications.csv",
+  stringsAsFactors = FALSE,
+  check.names = FALSE
+)
+
+homepage_publications <- homepage_publications[
+  order(homepage_publications$year, decreasing = TRUE),
+]
+
+homepage_publications <- head(homepage_publications, 3)
+
+escape_home_html <- function(x) {
+  x <- ifelse(is.na(x), "", x)
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x <- gsub('"', "&quot;", x, fixed = TRUE)
+  x
+}
+
+homepage_publication_cards <- vapply(
+  seq_len(nrow(homepage_publications)),
+  function(i) {
+
+    pub <- homepage_publications[i, ]
+
+    title_html <- escape_home_html(pub$title)
+
+    if (
+      !is.na(pub$doi_url) &&
+      trimws(pub$doi_url) != ""
+    ) {
+      title_html <- sprintf(
+        paste0(
+          '<a href="%s" target="_blank" ',
+          'rel="noopener noreferrer">%s</a>'
+        ),
+        escape_home_html(pub$doi_url),
+        title_html
+      )
+    }
+
+    sprintf(
+      paste0(
+        '<article class="home-publication-card">',
+        '<div class="home-publication-topline">',
+        '<span class="home-publication-year">%s</span>',
+        '<span class="home-publication-type">%s</span>',
+        '</div>',
+        '<h3>%s</h3>',
+        '<p class="home-publication-authors">%s</p>',
+        '<p class="home-publication-source"><em>%s</em></p>',
+        '</article>'
+      ),
+      escape_home_html(pub$year),
+      escape_home_html(pub$publication_type),
+      title_html,
+      escape_home_html(pub$authors),
+      escape_home_html(pub$journal_or_publisher)
+    )
+  },
+  character(1)
+)
+
+cat(
+  '<div class="home-publication-grid">',
+  paste(homepage_publication_cards, collapse = "\n"),
+  '</div>'
+)
+```
+
+[View All Publications](publications.qmd){.section-link}
+
+
+## Collaboration and Engagement
+
+The strongest methodological collaboration begins early, when measurement, design, and analysis can be developed together.
+
+I contribute to research and grant projects through methodological leadership, measurement planning, statistical analysis, evaluation, validity review, speaking, workshops, and advisory service.
+
+[Discuss an Engagement](engagement.qmd){.btn .btn-primary}
+
+## Teaching, Mentoring, and Research Leadership
+
+My mentoring uses a progressive apprenticeship model to help students develop from observers and contributors into independent scholars and methodological collaborators.
+
+My research leadership focuses on building the systems, incentives, infrastructure, and capacity that allow scholars and institutions to pursue ambitious research goals.
+
+[Teaching & Mentoring](teaching.qmd){.section-link}
+
+[Research Leadership](leadership.qmd){.section-link}

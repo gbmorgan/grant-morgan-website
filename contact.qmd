@@ -1,0 +1,237 @@
+---
+title: "Contact"
+page-layout: full
+toc: false
+---
+
+## Collaborate or Connect
+
+I welcome inquiries concerning research collaboration, methodological advising, grant development, evaluation, speaking, workshops, review panels, advisory service, and doctoral study.
+
+The most productive collaborations typically begin early, when measurement, research design, and analysis can be considered together.
+
+::: {.contact-layout}
+
+::: {.contact-information}
+
+### Areas of Engagement
+
+- Research and grant collaboration
+- Methodological advising
+- Measurement and statistical analysis
+- Program and project evaluation
+- Advisory-board and scientific-committee service
+- External methodological review
+- Invited talks and keynote presentations
+- Workshops and professional development
+- Doctoral study and mentoring
+
+### Direct Contact
+
+For straightforward inquiries, you may contact me directly by email.
+
+[Email Grant Morgan](mailto:grant_morgan@baylor.edu){.btn .btn-primary}
+
+### Prospective Doctoral Students
+
+Advising availability changes from year to year. Prospective students should briefly describe:
+
+- academic background;
+- methodological interests;
+- quantitative preparation;
+- reasons for considering Baylor;
+- potential alignment with my work;
+- long-term professional goals.
+
+:::
+
+::: {.contact-form-panel}
+
+### Describe the Opportunity
+
+<form
+  name="professional-inquiry"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="professional-inquiry-form"
+>
+
+<input type="hidden" name="form-name" value="professional-inquiry">
+
+<p class="hidden-form-field">
+  <label>
+    Do not complete this field:
+    <input name="bot-field">
+  </label>
+</p>
+
+<div class="form-row form-row-two">
+
+<div class="form-field">
+
+<label for="name">Name <span aria-hidden="true">*</span></label>
+
+<input
+  type="text"
+  id="name"
+  name="name"
+  autocomplete="name"
+  required
+>
+
+</div>
+
+<div class="form-field">
+
+<label for="email">Email <span aria-hidden="true">*</span></label>
+
+<input
+  type="email"
+  id="email"
+  name="email"
+  autocomplete="email"
+  required
+>
+
+</div>
+
+</div>
+
+<div class="form-row form-row-two">
+
+<div class="form-field">
+
+<label for="organization">Institution or Organization</label>
+
+<input
+  type="text"
+  id="organization"
+  name="organization"
+  autocomplete="organization"
+>
+
+</div>
+
+<div class="form-field">
+
+<label for="inquiry-type">Type of Inquiry <span aria-hidden="true">*</span></label>
+
+<select id="inquiry-type" name="inquiry-type" required>
+  <option value="">Select one</option>
+  <option value="research-collaboration">Research collaboration</option>
+  <option value="grant-proposal">Grant proposal</option>
+  <option value="methodological-advising">Methodological advising</option>
+  <option value="measurement-analysis">Measurement or analysis</option>
+  <option value="evaluation">Evaluation</option>
+  <option value="advisory-service">Advisory board or committee</option>
+  <option value="external-review">External methodological review</option>
+  <option value="speaking">Invited talk or keynote</option>
+  <option value="workshop">Workshop or professional development</option>
+  <option value="doctoral-study">Doctoral study</option>
+  <option value="other">Other</option>
+</select>
+
+</div>
+
+</div>
+
+<div class="form-row form-row-two">
+
+<div class="form-field">
+
+<label for="project-stage">Project or Opportunity Stage</label>
+
+<select id="project-stage" name="project-stage">
+  <option value="">Select one</option>
+  <option value="initial-concept">Initial concept</option>
+  <option value="research-questions">Research questions under development</option>
+  <option value="grant-planning">Grant planning</option>
+  <option value="measurement-development">Measurement development</option>
+  <option value="study-design">Study design</option>
+  <option value="data-collection">Data collection</option>
+  <option value="analysis">Analysis</option>
+  <option value="manuscript">Manuscript preparation</option>
+  <option value="event-planning">Event or workshop planning</option>
+  <option value="not-applicable">Not applicable</option>
+</select>
+
+</div>
+
+<div class="form-field">
+
+<label for="format">Preferred Format</label>
+
+<select id="format" name="format">
+  <option value="">Select one</option>
+  <option value="virtual">Virtual</option>
+  <option value="in-person">In person</option>
+  <option value="flexible">Flexible</option>
+  <option value="not-applicable">Not applicable</option>
+</select>
+
+</div>
+
+</div>
+
+<div class="form-row form-row-two">
+
+<div class="form-field">
+
+<label for="timing">Anticipated Timing</label>
+
+<input
+  type="text"
+  id="timing"
+  name="timing"
+  placeholder="For example: Fall 2026 or March 10–12"
+>
+
+</div>
+
+<div class="form-field">
+
+<label for="relevant-link">Relevant Link</label>
+
+<input
+  type="url"
+  id="relevant-link"
+  name="relevant-link"
+  placeholder="https://"
+>
+
+</div>
+
+</div>
+
+<div class="form-field">
+
+<label for="message">
+  Brief Description <span aria-hidden="true">*</span>
+</label>
+
+<textarea
+  id="message"
+  name="message"
+  rows="8"
+  required
+  placeholder="Please describe the project, opportunity, anticipated role, audience, and any relevant context."
+></textarea>
+
+</div>
+
+<div class="form-privacy-notice">
+
+Information submitted through this form will be used only to evaluate and respond to your inquiry. Please do not submit confidential, proprietary, student, patient, or personally sensitive information.
+
+</div>
+
+<button type="submit" class="contact-submit-button">
+  Submit Inquiry
+</button>
+
+</form>
+
+:::
+
+:::
