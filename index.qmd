@@ -136,7 +136,7 @@ Emerging work examining how measurement, model choice, and analytic uncertainty 
 
 ::: {.impact-metric}
 
-<span class="impact-number">5,663</span>
+<span class="impact-number">5,727</span>
 
 <span class="impact-label">Google Scholar Citations</span>
 
