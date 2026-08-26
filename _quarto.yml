@@ -14,6 +14,8 @@ website:
         text: Research
       - href: publications.qmd
         text: Publications
+      - href: consequential-validity-lab.qmd
+        text: Consequential Validity Lab
       - href: engagement.qmd
         text: Connect
       - text: More
