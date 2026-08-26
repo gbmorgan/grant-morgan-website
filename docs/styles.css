@@ -26,10 +26,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.quarto-title h1.title {
-  font-size: 2.2rem;
-}
-
 body {
   background-color: var(--gbm-off-white);
   color: var(--gbm-text);
